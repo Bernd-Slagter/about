@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="icon.ico">
+	<script src="home.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<title>
 		Bernd Slagter
@@ -13,30 +15,23 @@
 
 <body>
 	
-	<div class="header">
-		<span class="page">
-			<a href="home.html">Home</a>  
-		</span>
-		<span class="page">
-			<a href="cv.html">CV</a>
-		</span>
-		<span class="page">
-			<a href="projects.html">Projects</a>
-		</span>
+	<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="home.html">Home</a>
+		  <a href="cv.html">CV</a>
+		  <a href="projects.html">Projects</a>
+		  <a href="#">Contact</a>
 	</div>
 	
+	<a href="javascript:void(0)" class="closebtn" onclick="openNav()">&equiv;</a>
 	<div class="container">
 		<div><img class="picture" src="pic.jpg"></div>
-		<div class="content">
-			<h1>Bernd Slagter</h1>
-			
-				<a href="mailto:bernd.slagter27@gmail.com">bernd.slagter27@gmail.com</a><br>
-				<a href="linkedin.com/in/berndslagter">LinkedIn</a>
-			
-			
+		<div>
+			<h1>Bernd Slagter</h1>			
 		</div>
 		
 		<div>
+			
 			<h2>Vaardigheden</h2>
 			<h3>Programmeren</h3>
 			<span>Python / R / SQL / PHP / JavaScript / CSS / HTML </span>
@@ -44,30 +39,18 @@
 			<span>Nederlands / Engels / Duits / Japans / Zweeds</span>
 			<h3>Sport</h3>
 			<span>Fitness / Hardlopen / Judo</span>
+			<h3>Download</h3>
+			<span><a href="home.html" download>Click me</a></span>
 		</div>
 
-		<div>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mi nibh, scelerisque sit amet metus eu, sodales vulputate nisi. Ut ut iaculis libero. Nullam lacinia tincidunt est et bibendum. Phasellus turpis enim, posuere vel tellus eu, tempus malesuada arcu. In non velit sit amet tortor fringilla feugiat quis sed ex. Aliquam erat volutpat. Morbi mauris metus, hendrerit eget purus ac, facilisis mattis ligula. Vestibulum lobortis erat ac molestie placerat.
-
-				Duis suscipit a risus bibendum sollicitudin. Donec id lacus sed elit facilisis feugiat. Aenean sit amet ullamcorper sapien, id feugiat velit. Sed elementum molestie enim, quis tincidunt dui fermentum et. Nullam non mattis quam. Nam non turpis quis orci elementum vestibulum. Cras rutrum eleifend egestas. Mauris nec felis nisi. Nam sit amet velit at libero varius luctus. Phasellus ac imperdiet velit, id pulvinar nunc. Nulla pharetra tellus vestibulum magna feugiat, at efficitur sem ornare.
-
-				Fusce sodales ante accumsan, mollis tortor a, gravida arcu. Aliquam erat volutpat. Proin convallis nisi nec maximus tempor. Fusce sit amet tristique dui, id lobortis nisi. Maecenas ante leo, rutrum sit amet ullamcorper eu, sagittis sit amet augue. Sed diam sem, cursus quis consectetur at, pellentesque suscipit augue. Nulla venenatis, mauris eu posuere auctor, est est maximus metus, vehicula auctor urna nulla at nulla. In hac habitasse platea dictumst. Ut ullamcorper lacinia nisl ac finibus. Etiam placerat nisi id euismod convallis. Nullam sagittis euismod lorem, ac vestibulum quam venenatis ac. Nunc laoreet lorem tortor, eu venenatis turpis semper eget. Phasellus ac aliquam diam. Nulla ante urna, tincidunt ut urna in, fermentum blandit massa. Ut porta porttitor nibh, eu ultrices leo aliquam in. Sed accumsan massa eu magna consectetur, faucibus malesuada dui congue.
-
-				Morbi vestibulum nulla purus, id dignissim sapien rhoncus non. Nulla a dapibus lorem. Curabitur sagittis tortor eu accumsan elementum. Cras suscipit iaculis ipsum, quis pulvinar libero cursus et. Aenean fringilla diam nec volutpat commodo. Praesent porttitor varius nulla sit amet ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sed eros dictum, tincidunt orci at, sodales mauris. Donec vestibulum ex ac eros maximus, eget pellentesque metus pretium. Sed ac ex erat. Vivamus vehicula dui vitae lectus maximus, id tempus lorem convallis. Sed bibendum arcu a magna accumsan vestibulum. Nunc cursus pharetra urna at pharetra. Nam et urna porta, sollicitudin massa eget, auctor urna. Duis sit amet tempus risus. Sed ac velit eros.
-
-				Aliquam in lectus quis nulla gravida fermentum ut sit amet neque. Phasellus mattis et nunc vel molestie. Sed iaculis congue posuere. Quisque augue nisi, semper non enim in, sollicitudin aliquet est. Nullam maximus, leo vel dictum faucibus, ex orci placerat tellus, non molestie velit nisl ac dolor. Sed sagittis ac lacus at suscipit. Sed mattis, odio imperdiet imperdiet laoreet, purus magna luctus erat, in congue ipsum purus sit amet velit. Curabitur varius, augue non tempus laoreet, nisi ex tristique arcu, tempus egestas metus tellus eu mauris. Sed mi ex, condimentum sed felis sed, rutrum blandit nisi.
-							</p>
-
-		</div>
+		
 	</div>
 
 	<div class="footer">
-		<span>Contact me</span>
 		<a href="mailto:bernd.slagter27@gmail.com">E-Mail</a>
-		<a href="https://linkedin.com/in/berndslagter/">LinkedIn</a>
-		<a href="https://instagram.com/berndslagter">Instagram</a>
-		<a href="https://github.com/Bernd-Slagter">GitHub</a>
+		<a href="https://linkedin.com/in/berndslagter/" target="=blank">LinkedIn</a>
+		<a href="https://instagram.com/berndslagter/" target="=blank">Instagram</a>
+		<a href="https://github.com/Bernd-Slagter" target="=blank">GitHub</a>
 
 
 	</div>
