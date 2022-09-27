@@ -4,6 +4,7 @@ html{
 
 body{
 	margin: 0;
+	font-family: monospace;
 }
 
 a{
@@ -33,7 +34,6 @@ a{
 	margin: auto;
 	text-align: center;
 	padding: 10px 0 10px 0;
-	font-family: sans-serif;
 }
 
 .sticky{
@@ -102,11 +102,11 @@ a{
 
 
 .contact{
-	background-color: red;
 	display: block;
 	margin: auto;
 	width: 50%;
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 .contact
@@ -117,10 +117,12 @@ a{
 	padding: 10px;	
 	}
 	form input{
-	width: 50%;
+	width: 70%;
+
 	}
 	form textarea{
-	width: 50%;
+	width: 70%;
+	height: 200px;
 	}
 
 
