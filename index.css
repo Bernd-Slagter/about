@@ -8,7 +8,6 @@ a{
 }
 
 #header{
-	background-color: lightgrey;
 	height: auto;
 	text-align: center;
 	padding: 10px;
@@ -23,12 +22,13 @@ a{
 }
 
 #nav{
-	background-color: green;
+	background-color: orange;
 	display: block;
 	width: 100%;
 	margin: auto;
 	text-align: center;
 	padding: 10px 0 10px 0;
+	font-family: sans-serif;
 }
 
 #nav a{
@@ -47,6 +47,19 @@ a{
 	font-size: 24px;
 }
 
+.gridobjects{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 0;
+	row-gap: 0;
+}
+
+
+.gridobjects img{
+	object-fit: cover;
+	height: 400px;
+	width: 400px;
+}
 
 #footer{
 	background-color: red;
