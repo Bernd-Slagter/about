@@ -108,6 +108,8 @@ a{
 	width: 50%;
 	text-align: center;
 	padding-bottom: 50px;
+	font-size: 24px;
+
 }
  
 .contact
@@ -118,13 +120,31 @@ a{
 	padding: 10px;	
 	}
 	form input{
+	height: 30px;
 	width: 70%;
-
+	border-radius: 5px;
 	}
 	form textarea{
 	width: 70%;
 	height: 200px;
+	border-radius: 5px;
 	}
+
+.resume{
+	display: block;
+	margin: auto;
+	width: 50%;
+	padding-bottom: 50px;
+	font-size: 24px;
+}
+
+.resume button{
+	margin: auto;
+	border-radius: 15px;
+	padding: 12px 30px;
+	cursor: pointer;
+	display: block;
+}
 
 
 
