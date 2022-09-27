@@ -42,6 +42,8 @@ a{
 	width: 100%;
 }
 
+.test
+
 .sticky + .content{
 	padding-top: 84px;
 }
@@ -108,7 +110,7 @@ a{
 	text-align: center;
 	padding-bottom: 50px;
 }
-
+ 
 .contact
 	h1{
 		padding: 10px;
