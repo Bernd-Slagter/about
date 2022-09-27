@@ -52,12 +52,12 @@ a{
 
 }
 
-.about{
+.content{
 	width: 60%;
-	padding: 10px;
 	margin: auto;
-	height: auto;
-}
+	}
+
+
 
 .about{
 	font-size: 24px;
@@ -86,7 +86,7 @@ a{
 	width: 300px;
 	margin: auto;
 	display: block;
-	height: 300px;
+	
 }
 
 @media screen and (max-width: 800px){
@@ -94,6 +94,11 @@ a{
 		flex: 50%;
 		max-width: 50%;
 	}
+	.content{
+	width: 75%;
+	
+
+}
 }
 
 @media screen and (max-width: 600px){
@@ -101,13 +106,17 @@ a{
 		flex: 100%;
 		max-width: 100%;
 	}
+	.content{
+	width: 90%;
+	margin: auto;
+	}
+		
 }
 
 
 .contact{
 	display: block;
 	margin: auto;
-	width: 50%;
 	text-align: center;
 	padding-bottom: 200px;
 	font-size: 24px;
@@ -118,8 +127,7 @@ a{
 .contact
 	h1{
 		padding: 10px;
-		font-size: 64px;
-	} 
+		} 
 	div{
 	padding: 10px;	
 	}
@@ -137,7 +145,7 @@ a{
 .resume{
 	display: block;
 	margin: auto;
-	width: 50%;
+	
 	padding-bottom: 50px;
 	font-size: 24px;
 }
