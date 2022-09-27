@@ -16,32 +16,44 @@
 		Bernd Slagter
 	</div>
 
-	<div id="nav">
+	<div id="nav" class="nav">
 		<a href="#header">HOME</a>
 		<a href="#projects">PROJECTS</a>
 		<a href="#contact">CONTACT</a>
 	</div>
 
 	<div class="content">
-	<div>
-		<p class="about">
+	<div class="about">
+		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis turpis vulputate, egestas augue in, lobortis ante. Donec porta libero lectus. Maecenas iaculis laoreet elit nec consectetur. Aenean suscipit, nibh sit amet gravida viverra, nulla odio malesuada sem, at pellentesque quam sapien sit amet ex. Sed quis magna at orci pulvinar porttitor. Fusce placerat, turpis in tincidunt hendrerit, dui nunc pulvinar massa, at elementum ipsum dui in nunc. Aenean eget eros mattis, dapibus metus sed, faucibus velit. Aenean quam justo, laoreet vel dui vitae, facilisis posuere quam. Cras rhoncus tortor nec nisl vehicula, nec porttitor nulla volutpat. Donec in magna cursus, pretium nunc id, vulputate purus. Cras congue varius tempus. Cras bibendum mauris vulputate, dapibus arcu quis, eleifend diam. Etiam non sapien sollicitudin, cursus arcu at, malesuada purus. Praesent at arcu fringilla neque feugiat interdum vel ac arcu.
 		</p>
+
+
+		<h1>Projects</h1>
 	</div>
+
 
 	<div class="projects">
-		<h1>Projects</h1><br>
-	<div class="gridobjects">
+		
+	<div class="row">
+	<div class="column">
 		<div><img src="pic.jpg"></div>
 		<div><img src="pic.jpg"></div>
+		
+	</div>
+	<div class="column">
 		<div><img src="pic.jpg"></div>
 		<div><img src="pic.jpg"></div>
+	</div>
+	<div class="column">
 		<div><img src="pic.jpg"></div>
 		<div><img src="pic.jpg"></div>
+		
+	</div>
 	</div>
 	</div>
 
-	<div class="contact">
+	<div class="contact" id="contact">
 		<h1>Contact</h1>
 		<form target="_blank" action="https://formsubmit.co/bernd.slagter27@gmail.com" method="POST">
 			<div>
@@ -77,6 +89,24 @@
 
 		</div>
 	</div>
+
+
+<script>
+window.onscroll = function() {scrollFunc()};
+
+var header= document.getElementById("nav");
+var sticky = header.offsetTop;
+
+function scrollFunc(){
+	if (window.pageYOffset > sticky){
+		header.classList.add("sticky");
+	} else {
+		header.classList.remove("sticky");
+	}
+}
+</script>
+
+
 
 
 

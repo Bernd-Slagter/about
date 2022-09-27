@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	margin: 0;
 }
@@ -8,6 +12,7 @@ a{
 }
 
 #header{
+
 	height: auto;
 	text-align: center;
 	padding: 10px;
@@ -16,7 +21,7 @@ a{
 }
 
 #profile{
-	position: absolute;
+	position: sticky;
 	margin-top: 0 0 100 0px;
 	width: 100px;
 }
@@ -31,12 +36,22 @@ a{
 	font-family: sans-serif;
 }
 
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content{
+	padding-top: 84px;
+}
+
 #nav a{
 	padding: 10px;
 
 }
 
-.content{
+.about{
 	width: 60%;
 	padding: 10px;
 	margin: auto;
@@ -47,19 +62,68 @@ a{
 	font-size: 24px;
 }
 
-.gridobjects{
-	display: grid;
-	grid-template-columns: auto auto auto;
-	column-gap: 0;
-	row-gap: 0;
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.column{
+	flex: 30%;
+	max-width: 30%;
+	padding: 0 4px;
+	margin: auto;
 }
 
 
-.gridobjects img{
+.column img{
+	margin-top: 8px;
 	object-fit: cover;
-	height: 400px;
-	width: 400px;
+	vertical-align: middle;
+	width: 300px;
+	margin: auto;
+	display: block;
+	height: 300px;
 }
+
+@media screen and (max-width: 800px){
+	.column{
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.column{
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+
+.contact{
+	background-color: red;
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.contact
+	h1{
+		padding: 10px;
+	} 
+	div{
+	padding: 10px;	
+	}
+	form input{
+	width: 50%;
+	}
+	form textarea{
+	width: 50%;
+	}
+
+
 
 #footer{
 	background-color: red;
@@ -70,6 +134,9 @@ a{
 	color: whitesmoke;	
 }
 
+#footer div{
+	padding: 10px;
+}
 
 #footer .socials img{
 	width: 24px;
