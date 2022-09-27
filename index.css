@@ -42,9 +42,6 @@ a{
 	width: 100%;
 }
 
-.test{
-	margin: auto;
-}
 
 .sticky + .content{
 	padding-top: 84px;
