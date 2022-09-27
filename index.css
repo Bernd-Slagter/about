@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#header{
+	background-color: lightgrey;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	font-size: 64px;
+}
+
+#profile{
+	position: absolute;
+	margin-top: 0 0 100 0px;
+	width: 100px;
+}
+
+#nav{
+	background-color: green;
+	display: block;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+#nav a{
+	padding: 10px;
+
+}
+
+.content{
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+	height: auto;
+}
+
+.about{
+	font-size: 24px;
+}
+
+
+#footer{
+	background-color: red;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	display: block;
+	color: whitesmoke;	
+}
+
+
+#footer .socials img{
+	width: 24px;
+	padding: 10px;
+}
+
+a:hover{
+	color: grey;
+	transition: 1s;
+}
+
