@@ -85,9 +85,10 @@ a{
 	vertical-align: middle;
 	width: 300px;
 	margin: auto;
-	display: block;
-	
+	display: block;	
 }
+
+
 
 @media screen and (max-width: 800px){
 	.column{
