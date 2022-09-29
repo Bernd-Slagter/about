@@ -114,6 +114,29 @@ a{
 		
 }
 
+.collapsible{
+	margin: auto;
+	border-radius: 15px;
+	padding: 12px 30px;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.active, .collapsible:hover{
+	background-color: #ccc;
+}
+
+.col_content{
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	margin: 5%;
+	transition: max-height 0.2s ease-out;
+}
+
+
 
 .contact{
 	display: block;
@@ -157,6 +180,7 @@ a{
 	padding: 12px 30px;
 	cursor: pointer;
 	display: block;
+	margin-bottom: 30px;
 }
 
 

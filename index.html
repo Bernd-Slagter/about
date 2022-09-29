@@ -62,9 +62,64 @@
 
 	<div class="resume" id="resume" >
 		<h1 >Resume</h1>
-		
-		<a href="cv.pdf" download="CV_Bernd_Slagter"><button type="button">Download Resume</button></a>
+		<button type="button" class="collapsible">Expand</button>
+		<div class="col_content">
+			<div>
+				<h1 id=skills>Skills</h1>
+				<h4>Programming</h4>
+				<ul>
+					<li>Python</li>
+					<li>R</li>
+					<li>JavaScript</li>
+					<li>CSS</li>
+					<li>HTML</li>
+					<li>LaTeX</li>
+				</ul>
+				<h4>Software</h4>
+				<ul>
+					<li>Microsoft Office</li>
+				</ul>
+				<h4>Languages</h4>
+				<ul>
+					<li>Dutch</li>
+					<li>English</li>
+					<li>German</li>
+				</ul>
+			</div>
+			<div class="right">
+			<div>
+			<h1>Education</h1>
+			<p>2020-2024</p>
+			<h2>BSc Economie en Bedrijfseconomie</h2>
+			<h4>Specialisation Commerical Management</h4>
+			<h3>Tilburg University</h3>
+			<p>
+				Economie en Bedrijfseconomie is een brede opleiding die je met een analytische blik vanuit verschillende invalshoeken leert kijken naar actuele uitdagingen in de wereld. Je krijgt de kans vanuit het perspectief van het bedrijfsleven, de overheid, de markt én de economie inzicht te krijgen in belangrijke vraagstukken.<br> 
+				Commercieel Management richt zich op de marketing en management van
+				een bedrijf. Je leert te kijken naar nieuwe ontwikkelingen in de markt en hoe je als organisatie kansen benut door er succesvol op in te spelen.
+			</p>
+			</div>
+			<div>
+			<p>2012-2019</p>
+			<h2>VWO</h2>
+			<h4>Natuur & Techniek en Natuur & Gezondheid</h4>
+			<h3>Katholieke Scholengemeenschap Etten-Leur</h3>
+			</div>
+			<div>
+			<p>2022</p>
+			<h2>Bijlesdocent</h2>
+			<h3>StudyWorks</h3>
+			</div>
+			<div>
+			<p>2020</p>
+			<h2>Webshop Medewerker</h2>
+			<h3>Megekko</h3>
+			</div>
+		</div>
 
+
+		<a href="cv.pdf" download="CV_Bernd_Slagter"><button type="button">Download Resume</button></a>
+		</div>
 		
 
 	</div>
@@ -123,7 +178,23 @@ function scrollFunc(){
 }
 </script>
 
+<script>
+	var coll=document.getElementsByClassName("collapsible");
+	var i;
 
+	for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
 
 
 
